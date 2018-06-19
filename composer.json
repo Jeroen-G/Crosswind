@@ -1,0 +1,38 @@
+{
+    "name": "jeroen-g/crosswind",
+    "description": "Crosswind is an Tailwind CSS addon for Laravel apps.",
+    "license": "EUPL-1.1",
+    "authors": [
+        {
+            "name": "Jeroen",
+            "email": "jeroengjeroeng@gmail.com",
+            "homepage": "https://github.com/jeroen-g"
+        }
+    ],
+    "homepage": "https://github.com/jeroen-g/crosswind",
+    "keywords": ["Laravel", "Crosswind"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeroenG\\Crosswind\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JeroenG\\Crosswind\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JeroenG\\Crosswind\\CrosswindServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+@extends('crosswind::layout.master')
