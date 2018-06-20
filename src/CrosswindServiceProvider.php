@@ -49,12 +49,7 @@ class CrosswindServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/crosswind.php', 'crosswind');
-
-        // Register the service the package provides.
-        $this->app->singleton('crosswind', function ($app) {
-            return new Crosswind;
-        });
+        //
     }
 
     /**
@@ -64,6 +59,6 @@ class CrosswindServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['crosswind'];
+        //
     }
 }
