@@ -2,6 +2,12 @@
 
 Contributions are welcome and will be fully credited, they are accepted via Pull Requests on [Github](https://github.com/jeroen-g/crosswind).
 
+#Style guide
+The strength of Tailwind CSS lies in the extensive use of utility classes. Even though it is very much based on opinion, please structure the order of the utilities for Crosswind elements from outside to the inside, with all colours at the end, for example:
+
+`w-1/4 mr-6 mb-6 p-6 rounded-lg shadow overflow-hidden bg-white`
+`flex flex-wrap items-center justify-between p-4 shadow rounded-t-lg text-blue hover:text-blue-dark`
+
 # Things you could do
 If you want to contribute but do not know where to start, this list provides some starting points.
 - Tailwind.js setup
