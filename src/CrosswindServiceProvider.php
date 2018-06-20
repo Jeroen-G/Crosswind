@@ -29,7 +29,7 @@ class CrosswindServiceProvider extends ServiceProvider
             ], 'crosswind.assets');
 
             $this->publishes([
-                __DIR__ . '/../resources/assets' => base_path('resources/assets/vendor/crosswind'),
+                __DIR__.'/../resources/assets' => base_path('resources/assets/vendor/crosswind'),
             ], 'crosswind.assets');
 
             // Publishing the translation files.
