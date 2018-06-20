@@ -3,7 +3,6 @@
 <img src="screenshot.png" alt="Screenshot" height="400">
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
 Take a look at [contributing.md](contributing.md) to see a to do list.
@@ -63,11 +62,9 @@ The design is based on [this Dribble](https://dribbble.com/shots/4692934-Dashboa
 EUPL-1.1. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/jeroen-g/crosswind.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/jeroen-g/crosswind/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-styleci]:https://github.styleci.io/repos/137944049/shield
 
 [link-packagist]: https://packagist.org/packages/jeroen-g/crosswind
-[link-travis]: https://travis-ci.org/jeroen-g/crosswind
 [link-styleci]: https://github.styleci.io/repos/137944049
 [link-author]: https://github.com/jeroen-g
 [link-contributors]: ../../contributors

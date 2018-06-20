@@ -10,22 +10,15 @@
         }
     ],
     "homepage": "https://github.com/jeroen-g/crosswind",
-    "keywords": ["Laravel", "Crosswind"],
+    "keywords": ["Laravel", "Crosswind", "Tailwind", "CSS", "Laravel"],
     "require": {
         "illuminate/support": "~5"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0",
-        "orchestra/testbench": "~3.0"
     },
     "autoload": {
         "psr-4": {
             "JeroenG\\Crosswind\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "JeroenG\\Crosswind\\Tests\\": "tests"
         }
     },
     "extra": {
