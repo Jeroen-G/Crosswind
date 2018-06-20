@@ -8,6 +8,8 @@
 
 Take a look at [contributing.md](contributing.md) to see a to do list.
 
+Crosswind is an 'addon' for Tailwind CSS. This package gets you up and going quickly with a set of templates that you can make your own very easily. As it is currently under development (and far from finished) everyone is welcome to take a look and contribute their thoughts, ideas and code.
+
 ## Installation
 
 Via Composer
@@ -66,6 +68,6 @@ EUPL-1.1. Please see the [license file](license.md) for more information.
 
 [link-packagist]: https://packagist.org/packages/jeroen-g/crosswind
 [link-travis]: https://travis-ci.org/jeroen-g/crosswind
-[link-styleci]: https://styleci.io/repos/12345678
+[link-styleci]: https://github.styleci.io/repos/137944049
 [link-author]: https://github.com/jeroen-g
 [link-contributors]: ../../contributors
