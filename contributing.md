@@ -7,11 +7,11 @@ If you want to contribute but do not know where to start, this list provides som
 - Tailwind.js setup
 - Proper loading of assets (fontawesome, tailwindcss)
 - Additional block styles
+- A Laravel preset command
 - Some javascript to make things happen (e.g. switches)
 - Styled pages for users, posts, settings, profile, search results (these do not have to be functional)
 - Set up TravisCI, StyleCI
 - Write a comprehensive ReadMe
-- Tests
 
 ## Pull Requests
 
