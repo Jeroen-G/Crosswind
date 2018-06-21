@@ -8,18 +8,10 @@
     <script defer src="{{ asset('vendor/crosswind/fa-solid.min.js') }}"></script>
     <script defer src="{{ asset('vendor/crosswind/fontawesome.min.js') }}"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="{{ asset('vendor/crosswind/css/crosswind.css') }}" rel="stylesheet">
     <style>
         body {
             background-image: url("{{ asset('vendor/crosswind/background.jpg') }}");
-        }
-        #main {
-            background-color: rgba(255, 255, 255, 0.50);
-            -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
-        }
-        .bg-white-to-blue {
-            background: #3490DC;
-            background: linear-gradient(to bottom right, #BCDEFA, #3490DC);
         }
     </style>
 </head>

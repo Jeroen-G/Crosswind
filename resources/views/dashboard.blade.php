@@ -59,7 +59,7 @@
             </div>
         </section>
 
-        <section class="sm:w-full md:w-1/3 mr-6 mb-6 rounded-lg overflow-hidden shadow bg-white-to-blue p-6">
+        <section class="sm:w-full md:w-1/3 mr-6 mb-6 rounded-lg overflow-hidden shadow bg-gradient-light-blue p-6">
             <h3 class="font-semibold text-xl mb-4 text-white">Check out more</h3>
             <a href="https://github.com/Jeroen-G/Crosswind" target="_blank" class="no-underline text-sm float-right font-semibold text-white rounded-full bg-blue-dark p-2">Go to GitHub &rarr; </a>
         </section>

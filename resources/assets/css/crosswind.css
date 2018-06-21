@@ -1,0 +1,41 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ */
+@tailwind preflight;
+
+/**
+ * This injects any component classes registered by plugins.
+ */
+@tailwind components;
+
+ #main {
+            background-color: rgba(255, 255, 255, 0.50);
+
+        }
+/**
+ * Here you would add any of your custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities could still
+ * override them.
+ */
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ */
+@tailwind utilities;
+
+/**
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ */
+
+/* .bg-white-to-blue {
+    background: #3490DC;
+    background: linear-gradient(to bottom right, #BCDEFA, #3490DC);
+} */
+
+.blur-5 {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
